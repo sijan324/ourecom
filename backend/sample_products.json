@@ -1,0 +1,178 @@
+[
+  {
+    "name": "iPhone 15 Pro Max",
+    "description": "Latest iPhone with A17 Pro chip, titanium design, and advanced camera system.",
+    "price": 150000,
+    "originalPrice": 180000,
+    "category": "Electronics",
+    "images": ["https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=500"],
+    "countInStock": 25,
+    "rating": 4.8,
+    "reviewCount": 156
+  },
+  {
+    "name": "Samsung Galaxy S24 Ultra",
+    "description": "Premium Android phone with S Pen, 200MP camera, and AI features.",
+    "price": 140000,
+    "originalPrice": 160000,
+    "category": "Electronics",
+    "images": ["https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=500"],
+    "countInStock": 30,
+    "rating": 4.7,
+    "reviewCount": 89
+  },
+  {
+    "name": "MacBook Pro 16-inch",
+    "description": "Powerful laptop with M3 Pro chip, perfect for professionals and creators.",
+    "price": 280000,
+    "originalPrice": 320000,
+    "category": "Electronics",
+    "images": ["https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500"],
+    "countInStock": 15,
+    "rating": 4.9,
+    "reviewCount": 203
+  },
+  {
+    "name": "Nike Air Jordan 1 High",
+    "description": "Classic basketball shoes with premium leather and iconic design.",
+    "price": 18000,
+    "originalPrice": 22000,
+    "category": "Fashion",
+    "images": ["https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?w=500"],
+    "countInStock": 50,
+    "rating": 4.6,
+    "reviewCount": 127
+  },
+  {
+    "name": "Adidas Ultraboost 22",
+    "description": "Comfortable running shoes with Boost technology for maximum energy return.",
+    "price": 15000,
+    "originalPrice": 18000,
+    "category": "Fashion",
+    "images": ["https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500"],
+    "countInStock": 40,
+    "rating": 4.5,
+    "reviewCount": 95
+  },
+  {
+    "name": "Sony WH-1000XM5 Headphones",
+    "description": "Industry-leading noise canceling wireless headphones with premium sound.",
+    "price": 35000,
+    "originalPrice": 40000,
+    "category": "Electronics",
+    "images": ["https://images.unsplash.com/photo-1583394838336-acd977736f90?w=500"],
+    "countInStock": 20,
+    "rating": 4.8,
+    "reviewCount": 241
+  },
+  {
+    "name": "Designer Leather Handbag",
+    "description": "Premium leather handbag with elegant design, perfect for any occasion.",
+    "price": 12000,
+    "originalPrice": 15000,
+    "category": "Fashion",
+    "images": ["https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500"],
+    "countInStock": 25,
+    "rating": 4.4,
+    "reviewCount": 78
+  },
+  {
+    "name": "Smart Home Security Camera",
+    "description": "4K wireless security camera with night vision and mobile app control.",
+    "price": 8000,
+    "originalPrice": 10000,
+    "category": "Electronics",
+    "images": ["https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500"],
+    "countInStock": 35,
+    "rating": 4.3,
+    "reviewCount": 156
+  },
+  {
+    "name": "Wireless Gaming Mouse",
+    "description": "High-precision gaming mouse with RGB lighting and programmable buttons.",
+    "price": 4500,
+    "originalPrice": 6000,
+    "category": "Electronics",
+    "images": ["https://images.unsplash.com/photo-1527814050087-3793815479db?w=500"],
+    "countInStock": 60,
+    "rating": 4.5,
+    "reviewCount": 89
+  },
+  {
+    "name": "Yoga Mat Premium",
+    "description": "Non-slip yoga mat with extra cushioning for comfortable workouts.",
+    "price": 3000,
+    "originalPrice": 4000,
+    "category": "Sports",
+    "images": ["https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=500"],
+    "countInStock": 45,
+    "rating": 4.2,
+    "reviewCount": 67
+  },
+  {
+    "name": "Coffee Table Modern",
+    "description": "Stylish glass coffee table with wooden legs, perfect for modern homes.",
+    "price": 25000,
+    "originalPrice": 30000,
+    "category": "Home",
+    "images": ["https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=500"],
+    "countInStock": 12,
+    "rating": 4.6,
+    "reviewCount": 34
+  },
+  {
+    "name": "LED Desk Lamp",
+    "description": "Adjustable LED desk lamp with USB charging port and touch controls.",
+    "price": 3500,
+    "originalPrice": 4500,
+    "category": "Home",
+    "images": ["https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=500"],
+    "countInStock": 55,
+    "rating": 4.4,
+    "reviewCount": 112
+  },
+  {
+    "name": "Programming Books Bundle",
+    "description": "Complete collection of modern programming books for developers.",
+    "price": 8000,
+    "originalPrice": 12000,
+    "category": "Books",
+    "images": ["https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=500"],
+    "countInStock": 30,
+    "rating": 4.7,
+    "reviewCount": 201
+  },
+  {
+    "name": "Skincare Set Premium",
+    "description": "Complete skincare routine with cleanser, toner, serum, and moisturizer.",
+    "price": 6500,
+    "originalPrice": 8500,
+    "category": "Beauty",
+    "images": ["https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=500"],
+    "countInStock": 40,
+    "rating": 4.5,
+    "reviewCount": 143
+  },
+  {
+    "name": "Bluetooth Speaker Portable",
+    "description": "Waterproof Bluetooth speaker with 360-degree sound and long battery life.",
+    "price": 7500,
+    "originalPrice": 9000,
+    "category": "Electronics",
+    "images": ["https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=500"],
+    "countInStock": 38,
+    "rating": 4.4,
+    "reviewCount": 167
+  },
+  {
+    "name": "Winter Jacket Waterproof",
+    "description": "Warm winter jacket with waterproof material and thermal insulation.",
+    "price": 12000,
+    "originalPrice": 15000,
+    "category": "Fashion",
+    "images": ["https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=500"],
+    "countInStock": 22,
+    "rating": 4.6,
+    "reviewCount": 88
+  }
+]
