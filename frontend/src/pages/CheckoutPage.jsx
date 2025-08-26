@@ -22,8 +22,8 @@ function CheckoutPage() {
   const dispatch = useDispatch();
   
   const [formData, setFormData] = useState({
-    fullName: user?.name || '',
-    email: user?.email || '',
+    fullName: '',
+    email: '',
     phone: '',
     address: '',
     city: '',
@@ -165,6 +165,14 @@ function CheckoutPage() {
           </h1>
         </div>
 
+        {/* Test Mode Notice */}
+        <div className="bg-yellow-50 border border-yellow-200 rounded-xl p-4 mb-6">
+          <div className="flex items-center gap-2">
+            <span className="text-yellow-600">⚠️</span>
+            <p className="text-yellow-800 font-medium">Test Mode: Please enter sample information for testing purposes</p>
+          </div>
+        </div>
+
         <div className="grid lg:grid-cols-3 gap-8">
           {/* Checkout Form */}
           <div className="lg:col-span-2">
@@ -189,7 +197,7 @@ function CheckoutPage() {
                       className={`w-full px-4 py-3 border rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 ${
                         errors.fullName ? 'border-red-500' : 'border-gray-300'
                       }`}
-                      placeholder="Enter your full name"
+                      placeholder="e.g. John Doe"
                     />
                     {errors.fullName && <p className="text-red-500 text-sm mt-1">{errors.fullName}</p>}
                   </div>
@@ -208,7 +216,7 @@ function CheckoutPage() {
                         className={`w-full pl-10 pr-4 py-3 border rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 ${
                           errors.email ? 'border-red-500' : 'border-gray-300'
                         }`}
-                        placeholder="Enter your email"
+                        placeholder="e.g. john@example.com"
                       />
                     </div>
                     {errors.email && <p className="text-red-500 text-sm mt-1">{errors.email}</p>}
@@ -228,7 +236,7 @@ function CheckoutPage() {
                         className={`w-full pl-10 pr-4 py-3 border rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 ${
                           errors.phone ? 'border-red-500' : 'border-gray-300'
                         }`}
-                        placeholder="Enter your phone number"
+                        placeholder="e.g. +977-9800000000"
                       />
                     </div>
                     {errors.phone && <p className="text-red-500 text-sm mt-1">{errors.phone}</p>}
@@ -256,7 +264,7 @@ function CheckoutPage() {
                       className={`w-full px-4 py-3 border rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 ${
                         errors.address ? 'border-red-500' : 'border-gray-300'
                       }`}
-                      placeholder="Enter your street address"
+                      placeholder="e.g. 123 Main Street, Apartment 4B"
                     />
                     {errors.address && <p className="text-red-500 text-sm mt-1">{errors.address}</p>}
                   </div>
@@ -274,7 +282,7 @@ function CheckoutPage() {
                         className={`w-full px-4 py-3 border rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 ${
                           errors.city ? 'border-red-500' : 'border-gray-300'
                         }`}
-                        placeholder="Enter city"
+                        placeholder="e.g. Kathmandu"
                       />
                       {errors.city && <p className="text-red-500 text-sm mt-1">{errors.city}</p>}
                     </div>
@@ -291,7 +299,7 @@ function CheckoutPage() {
                         className={`w-full px-4 py-3 border rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 ${
                           errors.postalCode ? 'border-red-500' : 'border-gray-300'
                         }`}
-                        placeholder="Postal code"
+                        placeholder="e.g. 44600"
                       />
                       {errors.postalCode && <p className="text-red-500 text-sm mt-1">{errors.postalCode}</p>}
                     </div>
