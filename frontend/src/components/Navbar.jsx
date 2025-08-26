@@ -29,9 +29,6 @@ function Navbar() {
             <span>📞 +977-9800000000</span>
             <span>📧 support@ourecom.com</span>
           </div>
-          <div className="flex items-center space-x-4">
-            <UserProfile />
-          </div>
         </div>
 
         {/* Main navbar */}
