@@ -90,26 +90,10 @@ npm run dev
 
 ## 🔧 Configuration
 
+
 ### Environment Variables
 
-#### Backend (.env)
-```bash
-PORT=5000
-NODE_ENV=development
-FRONTEND_URL=http://localhost:5174
-JWT_SECRET=your_super_secret_key
-ESEWA_MERCHANT_CODE=EPAYTEST
-ESEWA_SECRET_KEY=8gBm/:&EnhH.1/q
-ESEWA_ENVIRONMENT=testing
-```
-
-#### Frontend (.env)
-```bash
-VITE_API_URL=http://localhost:5000/api
-VITE_ESEWA_MERCHANT_CODE=EPAYTEST
-VITE_ESEWA_SECRET_KEY=8gBm/:&EnhH.1/q
-VITE_ESEWA_ENVIRONMENT=testing
-```
+> ⚠️ For security, environment variable values are not included in this README. Please see `.env.example` in each folder for required variable names and add your own values.
 
 ## 🧪 Testing eSewa Payment
 
