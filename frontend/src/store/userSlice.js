@@ -3,11 +3,13 @@ import axios from 'axios';
 
 const api = import.meta.env.VITE_API_URL;
 
+
 export const login = createAsyncThunk('user/login', async (data, thunkAPI) => {
   try {
     const res = await axios.post(`${api}/auth/login`, data);
-    localStorage.setItem('user', JSON.stringify(res.data));
-    return res.data;
+    const userData = { ...res.data.user, token: res.data.token };
+    localStorage.setItem('user', JSON.stringify(userData));
+    return userData;
   } catch (err) {
     return thunkAPI.rejectWithValue(err.response.data.message);
   }
@@ -16,8 +18,9 @@ export const login = createAsyncThunk('user/login', async (data, thunkAPI) => {
 export const signup = createAsyncThunk('user/signup', async (data, thunkAPI) => {
   try {
     const res = await axios.post(`${api}/auth/signup`, data);
-    localStorage.setItem('user', JSON.stringify(res.data));
-    return res.data;
+    const userData = { ...res.data.user, token: res.data.token };
+    localStorage.setItem('user', JSON.stringify(userData));
+    return userData;
   } catch (err) {
     return thunkAPI.rejectWithValue(err.response.data.message);
   }
