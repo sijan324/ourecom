@@ -1,4 +1,10 @@
+
 # 🛒 OurEcom - Complete E-commerce Platform
+
+## 🌐 Live Demo
+
+- **Frontend (Vercel):** [https://ourecom-60jjt8llp-sijangautam17-gmailcoms-projects.vercel.app](https://ourecom-60jjt8llp-sijangautam17-gmailcoms-projects.vercel.app)
+- **Backend (Railway):** [https://adaptable-elegance-production-a3d4.up.railway.app](https://adaptable-elegance-production-a3d4.up.railway.app)
 
 A modern, full-stack e-commerce platform built with React, Node.js, and eSewa payment integration.
 
