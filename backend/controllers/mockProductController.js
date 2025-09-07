@@ -32,6 +32,7 @@ export const getAllProducts = async (req, res) => {
     res.json({
       success: true,
       products: paginatedProducts,
+      total: filteredProducts.length,
       pagination: {
         currentPage: parseInt(page),
         totalPages: Math.ceil(filteredProducts.length / parseInt(limit)),
