@@ -152,7 +152,8 @@ const EnhancedCheckoutPage = () => {
         }))
       };
 
-      const response = await axios.post('http://localhost:5000/api/orders', orderData);
+  const api = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+  const response = await axios.post(`${api}/orders`, orderData);
       
       if (response.data.success) {
         setOrderPlaced(true);
@@ -184,7 +185,8 @@ const EnhancedCheckoutPage = () => {
         }))
       };
 
-      const response = await axios.post('http://localhost:5000/api/orders', orderData);
+  const api = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+  const response = await axios.post(`${api}/orders`, orderData);
       
       if (response.data.success) {
         setOrderPlaced(true);
