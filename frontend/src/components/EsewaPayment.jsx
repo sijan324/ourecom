@@ -77,11 +77,6 @@ const EsewaPayment = ({ amount, onSuccess, onError, onCancel, orderDetails }) =>
             />
           </div>
           {error && <div className="text-red-600 text-sm">{error}</div>}
-          <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-3 text-xs text-yellow-700">
-            <div><strong>Test Credentials:</strong></div>
-            <div>eSewa ID: 9806800001 or 9806800002</div>
-            <div>MPIN: 1234 (for test)</div>
-          </div>
         </form>
 
         <div className="space-y-3">
@@ -116,7 +111,6 @@ const EsewaPayment = ({ amount, onSuccess, onError, onCancel, orderDetails }) =>
         </div>
         <div className="mt-4 text-xs text-gray-500 text-center">
           <p>🔒 Secured by eSewa's 256-bit SSL encryption</p>
-          <p>Environment: Testing Mode (Simulated)</p>
         </div>
       </div>
     </div>
