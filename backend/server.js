@@ -25,7 +25,6 @@ app.use(express.json());
 const allowedOrigins = [
   process.env.FRONTEND_URL,
   'http://localhost:5174',
-  'https://ourecom-invzloixa-sijangautam17-gmailcoms-projects.vercel.app',
 ];
 app.use(cors({
   origin: function (origin, callback) {
